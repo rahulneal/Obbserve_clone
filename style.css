@@ -93,7 +93,7 @@ li{
     width: 300px;
     opacity: 0;
     transition: .5s ease;
-    background-color: var(--secondry);
+    background-color: palevioletred;
   }
 
   
@@ -146,7 +146,7 @@ li{
     width: 300px;
     opacity: 0;
     transition: .5s ease;
-    background-color: var(--secondry);
+    background-color: green;
   }
 .item2 { grid-area: main; 
     height: 300px;
@@ -166,7 +166,7 @@ li{
         width: 645px;
         opacity: 0;
         transition: .5s ease;
-        background-color: var(--secondry);
+        background-color: yellow;
       }
 .item3 { grid-area: footer;
     position: relative;
@@ -187,7 +187,7 @@ li{
         width: 300px;
         opacity: 0;
         transition: .5s ease;
-        background-color: var(--secondry);
+        background-color: lavender;
       }
 
 
@@ -209,12 +209,54 @@ grid-gap:10px;
   padding: 0px;
 }
 
+#logo{
+  padding: 16px;
+  margin-left: 10px;
+}
+audio{
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+small{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -100px;
+  right: -100px;
+  align-items: center;
+  justify-content: center;
+}  
+
+.like small{
+  position: relative;
+  top: -55px;
+  right: 90px;
+  background-color: transparent;
+  color:white;
+  font-size: 18px;
+}
+
+span button{
+  background-color: transparent;
+  border: none;
+  color: #000;
+
+}
+span{
+  background-color: transparent;
+
+}
+
+span img{
+  background-color: transparent;
+  position: relative;
+  
+}
 
 
 
-  <div class="container">
-        <img src="img_avatar.png" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Hello World</div>
-        </div>
-      </div>
+
+.output , .output2 , .output3 , .output4{
+  background-color: transparent;
+  color: #f8f8f8;
+}
